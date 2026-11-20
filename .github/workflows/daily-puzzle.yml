@@ -1,0 +1,33 @@
+name: Daily Puzzle
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-puzzle:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get random puzzle
+        run: |
+          PUZZLE=$(curl -s https://riddles-api.vercel.app/random | jq -r '.riddle')
+
+          echo "# Hi 👋" > README.md
+          echo "" >> README.md
+          echo "## 🧩 Daily Puzzle" >> README.md
+          echo "" >> README.md
+          echo "$PUZZLE" >> README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add README.md
+          git commit -m "Update daily puzzle" || exit 0
+          git push
