@@ -1,5 +1,5 @@
-Welcome to my GitHub profile!
+# Hi 👋
 
-🧩 Daily Puzzle
+## 🧩 Daily Puzzle
 
-Loading today's puzzle...
+Inside a burning house, this thing is best to make. And best to make it quickly, before the fire's too much to take!
