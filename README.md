@@ -1,4 +1,4 @@
-# Hi 👋
+# Hi 👋 Welcome to my profile!
 
 ## 🧩 Daily Puzzle
 
