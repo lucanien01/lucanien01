@@ -1,5 +1,17 @@
-# Hi 👋 Welcome to my profile!
+# Hi 👋
+
+Welcome to my GitHub profile!
 
 ## 🧩 Daily Puzzle
 
-Inside a burning house, this thing is best to make. And best to make it quickly, before the fire's too much to take!
+> What force and strength cannot get through I with a gentle touch can do, And many in the street would stand were I not a friend in hand.
+
+<details>
+<summary>💡 Show Answer</summary>
+
+A key
+
+</details>
+
+---
+Automatically updated every day.
