@@ -4,12 +4,12 @@ Welcome to my GitHub profile!
 
 ## 🧩 Daily Puzzle
 
-> Which word in the English language becomes shorter when it is lengthened?
+> How Far Can You Walk into the woods?
 
 <details>
 <summary>💡 Show Answer</summary>
 
-Short
+HalfWay
 
 </details>
 
